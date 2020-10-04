@@ -20,3 +20,32 @@
 .wwd {
     text-align: center;
 }
+
+.noShow {
+    display: none;
+}
+
+.portfolio {
+    text-align: center;
+    width: 100%;
+}
+
+.img {
+    height: 280px;
+    max-width: 280px;
+    padding: 3px;
+}
+
+.hover {
+    opacity:0;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    bottom: 60%;
+    left: 60%;
+    right: 60%; 
+  }
+
+.row {
+    padding: 2px;
+}

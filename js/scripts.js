@@ -3,19 +3,25 @@ $(document).ready(function() {
 
 $("#design").click(function(){
     $("#showDesign").toggle();
-    $(".noShowDsgn").toggle();
+    $(".hideDsgnImg").toggle();
   });
   
   
   $("#dvlpnt").click(function(){
     $("#showDvlpnt").toggle();
-    $(".noShowDvlpnt").toggle();
+    $(".noShowDvlpntImg").toggle();
   });
 
 
   $("#product").click(function(){
     $("#showPrdct").toggle();
-    $(".noShowPrdct").toggle();
+    $(".noShowPrdctImg").toggle();
   });
 
+  $(".hover").hover(function(){
+    $(this).animate({opacity: '1'});
+    }, 
+    function(){
+    $(this).animate({opacity: ''});
+  });
 })
