@@ -21,6 +21,10 @@ Brenda UMUTONIWASE KEZA
 5. jQuery
 6. Markdown​
 
+
+### Contact information
+For any further explaination, questions or suggestions, feel free to contact me   keza1brenda@gmail.com
+
 ### License and Copyright information.
 Copyright (c) [2020] [Brenda UMUTONIWASE KEZA]
 
