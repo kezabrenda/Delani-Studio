@@ -28,17 +28,13 @@
 .portfolio {
     text-align: center;
     width: 100%;
-    display: block;
+    
 }
 
-.img {
-    height: 280px;
-    max-width: 280px;
-    padding: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
+.card {
+    padding: 10px;
+    border: 0;
 }
-
 
 .hover {
     opacity:0;
