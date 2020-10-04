@@ -15,6 +15,7 @@
 .services {
     text-align: center;
     background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
     color: white;
 }
 .wwd {
@@ -62,4 +63,17 @@
 input[type=text], input[type=email], textarea[type=text], input[type=submit] {
     background: transparent;
     color: white;
+}
+
+.socialIcons {
+    text-align: center;
+}
+
+.icon {
+    padding: 20px;
+    border: 0;
+}
+
+.end {
+    text-align: center;
 }
