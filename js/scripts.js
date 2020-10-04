@@ -24,4 +24,6 @@ $("#design").click(function(){
     function(){
     $(this).animate({opacity: '0'});
   });
+
+  
 })
