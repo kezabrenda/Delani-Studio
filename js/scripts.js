@@ -25,5 +25,16 @@ $("#design").click(function(){
     $(this).animate({opacity: '0'});
   });
 
-  
+
+  $('.button').click(function () {
+    var yourNames = $('#yourName').val();
+    var urEmail = $('#yourEmail').val();
+    var message = $('#comment');
+    var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
+    if (yourNames == '' || urEmail == '' || message == '') {
+        alert('Please check if you have filled the form correctly!');
+    } else {
+        alert(' Hello ' + yourNames + ' We have received your message. Thank you for reaching out to us.');
+    }
+});
 })
